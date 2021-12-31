@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+:root
+{
+    --cor0: #F7E5B2;
+    --cor1: #DEBA59;
+    --cor2: #b4a16e;
+    --cor3: #5E4F26;
+    --cor4: #614C14;
+}
+
+body
+{
+    background-color: var(--cor0);
+}
+
+main
+{
+    background-color: var(--cor1);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 5px;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.384);
+    border-radius: 10px;
+}
+
+header > img
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+nav
+{
+    background-color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+}
+nav > a
+{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover
+{
+    background-color: var(--cor2);
+    color: var(--cor4);
+    border-radius: 5px;
+}
+
+section
+{
+    background-color: white;
+    margin: -15px 0px 0px 0px;
+    padding: 0px 0px 10px 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.centro
+{
+    color: var(--cor3);
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px 20px 0px 20px;
+}
+.div-button
+{
+    text-align: center;
+    margin: 20px;
+}
+
+.button
+{
+    background-color: var(--cor2);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button:hover
+{
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+article
+{
+    background-color: var(--cor2);
+    width: 60%;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+article > h1
+{
+    background-color: var(--cor3);
+    color: white;
+    margin: 0px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+}
+article > p
+{
+    margin: 10px;
+    padding: 0px 0px 10px 0px;
+}
