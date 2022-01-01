@@ -57,10 +57,28 @@ nav > a:hover
 section
 {
     background-color: white;
-    margin: -15px 0px 0px 0px;
-    padding: 0px 0px 10px 0px;
+    padding: 1px 0px 10px 0px;
     border-radius: 0px 0px 5px 5px;
 }
+
+div.video
+{
+    background-color: var(--cor5);
+    padding: 30px;
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
 
 .centro
 {
