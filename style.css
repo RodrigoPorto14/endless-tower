@@ -15,7 +15,7 @@ body
 }
 strong
 {
-    color: rgb(66, 66, 243);
+    color: var(--cor1);
 }
 
 main
